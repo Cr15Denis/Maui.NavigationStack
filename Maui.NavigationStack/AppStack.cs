@@ -1,5 +1,4 @@
-﻿
-namespace Maui.NavigationStack;
+﻿namespace Maui.NavigationStack;
 
 public partial class AppStack : ContentPage
 {
