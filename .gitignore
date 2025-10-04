@@ -1,0 +1,73 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Platform-specific build outputs
+**/Platforms/Android/bin/
+**/Platforms/Android/obj/
+**/Platforms/iOS/bin/
+**/Platforms/iOS/obj/
+**/Platforms/MacCatalyst/bin/
+**/Platforms/MacCatalyst/obj/
+**/Platforms/Windows/bin/
+**/Platforms/Windows/obj/
+
+# IDE caches
+.idea/
+.vscode/
+
+# Windows
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget
+packages/
+*.PackageReference.props
+*.PackageReference.targets
+
+# Publish profiles
+*.publishsettings
+*.pubxml
+*.pubxml.user
+publish/
+
+# Logs
+*.log
+
+# Auto-generated files
+*.cache
+*.tmp
+*.bak
+*.swp
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage/
+
+# Secrets (no subir)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
